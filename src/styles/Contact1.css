@@ -1,0 +1,202 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway');
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+
+img{
+  max-width: 100%;
+  height: auto;
+}
+
+
+/********************* Header *********************/
+
+header{
+  position: absolute;
+  margin: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.logo{
+  float:left;
+  width: 8%;
+  margin-left: 0.5em;
+  margin-top: 0.15em;
+}
+
+/*********************Navigation menu *********************/
+
+nav{
+  float:right;
+}
+
+nav ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+nav li{
+  display: inline-block;
+  margin: 0;
+  border-width: 1px;
+  border-style: none;
+  padding: 1em 0em;
+}
+
+nav li:hover, nav li:focus{
+  background: yellow;
+  color: black;
+}
+
+nav a{
+  font-weight: bold;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1rem;
+  padding: 1em;
+  color: white;
+}
+
+nav a:hover{
+  color: black;
+}
+
+/******************************** Form ****************************/
+
+fieldset{
+  border: none;
+}
+
+.signup{
+  max-width: 400px;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  padding: 20px;
+  color: #FFF;
+  margin-top: 4em;
+  margin-left: 4em;
+  margin-bottom: 2em;
+  border-radius: 1em;
+}
+
+.text{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 5px;
+  background: black;;
+  outline: none;
+  border: none;
+  border-bottom: 1px dotted white;
+  color: white;
+  border-radius: 5px;
+  margin: 5px;
+  font-weight: bold;
+}
+
+.button{
+  box-sizing: border-box;
+  margin-top: 30px;
+  outline: none;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size: 1em;
+  color: #FFF;
+}
+
+select{
+  margin-top: 0.5em;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  font-size: 1em;
+  color: #FFF;
+  height: 2em;
+}
+
+select:hover{
+  color: black;
+  cursor: pointer;
+}
+
+input[type="submit"], input[type="reset"]{
+  width: 7em;
+  height: 2em;
+  border-radius: 3px;
+  font-weight: bold;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 0.5em;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover{
+  background:yellow;
+  color: black;
+  cursor: pointer;
+}
+
+input:hover{
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.sexe{
+  margin: 2em;
+  color: white;
+  border-bottom: 1px dotted #FFF;
+  border-radius: 5px;
+  background: rgba(255, 255, 255, 0.05);
+}
+
+.sexe:hover{
+  cursor: pointer;
+}
+
+/*********************About*********************/
+
+footer{
+  margin-top: -0.32em;
+  background-color: black;
+  width: 100%;
+  color: white;
+  text-align: justify;
+  float: left;
+  font-size: 1em;
+}
+
+footer p{
+  margin-left: 2.5em;
+}
+
+
+footer ul{
+  list-style: none;
+  display: inline-block;
+  margin: -0.7em;
+}
+
+footer ul li{
+  float: left;
+  padding-right: 0.2em;
+  width: 8%;
+}
+
+.contact{
+  float: right;
+  margin-top: -5em;
+  margin-right: 3.5em;
+  margin-left: 2em;
+}

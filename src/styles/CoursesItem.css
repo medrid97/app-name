@@ -1,0 +1,34 @@
+.coursesItem .btn-primary {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgb(93, 5, 5);
+    width: 100%;
+    height:40px;
+    display: block;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 15px 0  ;
+    text-align: center;
+    text-decoration: none;
+    
+    
+    
+    }
+    .coursesItem .btn-primary:hover {
+        background-color: #780a0a;
+        cursor: pointer;
+        transition: 0.3s ease-in;
+        color: white;
+        align-items: center !important;
+        justify-content: center !important;
+        padding: 20px 0px 0px;}
+    .coursesItem{
+        height: 410px !important;
+    }
+    .img-cours{
+        background-repeat: no-repeat !important;
+        background-size: 100% 100% !important;
+        height: 254px !important;
+    }

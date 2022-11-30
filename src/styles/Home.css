@@ -1,0 +1,122 @@
+.home {
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  }
+  .nader {
+    display: flex;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 26px;
+  }
+  .margintop{
+    margin-top: 10px;
+  }
+  .planing{
+    text-align: center;
+    color: #eeebeb;
+    font-family:cursive;
+    padding: 0;
+    font-size: 40px;
+    /*font-weight: lighter;*/
+  
+    
+  }
+
+  
+  .headerContainer h1 {
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    margin-top: 119px;
+    height: 60px;
+    font-weight: 50;
+    color: white;
+    text-align: center;
+    text-shadow: 0 0 10px #e74c3c, 0 0 20px #e74c3c, 0 0 30px #e74c3c, 0 0 40px #e74c3c;
+  }
+  .gymcolor {
+    color: #6f0a14 ;
+  }
+  .gymcolor1 {
+    color: #6f0a14 ;
+  }
+  
+  .headerContainer p {
+    padding: 0;
+    font-size: 50px;
+    /* font-weight: lighter; */
+    color: #eeebeb;
+    margin-top: 50px;
+    text-align: center;
+    text-shadow: 0 0 10px #e74c3c, 0 0 20px #e74c3c, 0 0 30px #e74c3c, 0 0 40px #e74c3c;
+  }
+  
+  .headerContainer button {
+    color: black;
+    border: 1px solid #dfbfc2 ;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    background-color: transparent;
+    height: 50px;
+    width: 180px;
+    color: #96121f;
+    text-decoration: none;
+    font-size: 20px; 
+  }
+  
+  .headerContainer button:hover {
+    background-color: #f8f9fa;
+    cursor: pointer;
+    transition: 0.3s ease-in;
+  }
+  
+  @media only screen and (max-width: 650px) {
+    .home {
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .headerContainer {
+      margin-left: 0px;
+      border-radius: 10px;
+      padding: 10px;
+      width: 80%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      background-color: #121619;
+      color: white;
+    }
+  
+    .headerContainer h1 {
+      font-size: 40px;
+      height: 30px;
+      color: white;
+    }
+  
+    .headerContainer p {
+      font-size: 30px;
+      color: white;
+    }
+  
+    .headerContainer button {
+      background-color: white;
+      color: #121619;
+      margin-bottom: 30px;
+    }
+  
+    .headerContainer button:hover {
+      background-color: rgb(225, 225, 225);
+      color: #121619;
+    }
+  }

@@ -1,0 +1,99 @@
+.contact {
+    width: 100%;
+    height: 90vh;
+    display: flex;
+  }
+ 
+  
+  .contact .leftSide {
+    height: 100%;
+    flex: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .contact .rightSide {
+    height: 60% !important;
+    flex: inherit !important;
+    width: 60%;
+    flex-direction: column;
+    justify-content: center;
+    background: #f0f8ffbf;
+    margin: 30px auto;
+    align-items: center;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 30px auto !important;
+  }
+  
+  .contact .rightSide h1 {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    font-weight: 10;
+    font-size: 50px;
+    width: 100%;
+    margin: 20px auto !important;
+    text-align: center;
+  }
+  
+  form {
+    flex-direction: column;
+    height: auto !important;
+    padding: 30px;
+    align-items: center;
+    margin: auto;
+}
+  
+form input {
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+  background: transparent;
+  width: 100% !important;
+}
+  
+form textarea {
+  margin-top: 15px;
+  height: 70px;
+  border: none;
+  border-bottom: 1px solid #121619;
+  color: black;
+  width: 100% !important;
+  background: transparent;
+}
+  input::placeholder,
+  textarea::placeholder {
+    font-weight: bold;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  form input:focus,
+  textarea:focus {
+    outline: none;
+  }
+  
+  form label {
+    margin-top: 15px;
+    color: grey;
+    width: 100%;
+  }
+  
+  form button {
+    margin-top: 40px;
+    width: 100% !important;
+    height: 40px;
+    border: none;
+    background-color: #121619;
+    color: whitesmoke;
+    font-size: 15px;
+    cursor: pointer;
+  }
+ 
+.price-info{
+  background-color: transparent !important;
+}
+
+.total{
+  border-top: 1px solid #fff ;
+}

@@ -1,0 +1,98 @@
+.hometr {
+    background-color: rgb(137, 134, 134) ;
+  }
+  
+  .trainers{
+      margin-top: 0em;
+      height: 80vh;
+      padding-top: 3em;
+    }
+    .hometr h1{
+      margin-top:20px;
+    padding: 0;
+      font-size: 20px;
+      /*font-weight: lighter;*/
+      color: #eeebeb ;
+      text-align: center;
+    }
+    .hometr p{
+  
+      margin-top:20px;
+      padding: 0;
+        font-size: 20px;
+        /*font-weight: lighter;*/
+        color: #eeebeb ;
+        text-align: center;
+    }
+    
+  
+    .section-1{
+      width: 33.33% !important;
+      background-image: url("../assets/midou.jpg");
+      height: 600px !important;
+      background-repeat: no-repeat;
+      background-size:   70% 60%;
+      justify-content: center;
+  
+      align-items: center;
+      text-align: center;
+    }
+    .section-2{
+      width: 33.33% !important;
+      background-image: url("../assets/tibou.jpg");
+      height: 600px !important;
+      background-repeat:  no-repeat;
+      background-size: 70% 60%;
+      align-items: center;
+      text-align: center;
+      justify-content: center;
+    }
+     .section-3{
+      width: 33.33% !important;
+      background-image: url("../assets/janet.jpg");
+      height: 600px !important;
+  background-repeat: no-repeat;
+   background-size:  70% 60%;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   
+  
+    }
+  
+    .flex-box{
+      display: flex;
+      justify-content: space-evenly;
+      margin-top:80px ;
+      margin-left: 100px;
+   
+    }
+  
+  
+    .section-1 p,.section-2 p,.section-3 p{
+      margin-top: 70%;
+      text-align: center  ;
+      font-weight: 1.rem;
+      font-size: 14px;
+      color: #fff;
+      word-break: break-all;
+      padding-left: 10px;
+      padding-right: 10px;
+  
+    }
+  
+    .btn-trainers{
+   
+      border: 1px solid black;
+      background-color: transparent;
+      color: black;
+      font-size: 20px;
+      font-weight: 600;
+      border-radius: 10px;
+      padding-left: 10%;
+      padding-right: 10%;
+    }
+  
+    .btn-trainers:hover{
+      background-color: rgb(175, 177, 34);
+    }

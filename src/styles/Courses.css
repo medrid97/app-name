@@ -1,0 +1,89 @@
+.Courses {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    flex-direction: column;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover ;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    
+  }
+  .Courses .coursesTitle {
+    font-family: cursive;
+    font-size: 50px;
+    color: #6f0a14;
+    
+    
+  }
+  .Courses .hr {
+    border: none;
+    border-top: 4px double rgb(255, 255, 255);
+    color: rgb(243, 243, 243);
+    overflow: visible;
+    text-align: center;
+    height: 1px;
+  }
+  .Courses .coursesTitle1
+    {
+  font-size: 20px;
+    color: rgb(117, 122, 126);
+    text-align: center;
+    margin-top: 0px;
+  }
+
+
+
+  .coursesList {
+    width: 70vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+
+
+
+
+  .coursesItem {
+    border-radius: 15px;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  }
+  .coursesItem:hover {
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.5);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+  }
+  
+  .coursesItem div {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .coursesItem h1,
+  .coursesItem p {
+    margin-left: 20px;
+  }
+  
+  @media only screen and (max-width: 1300px) {
+    .coursesList {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .coursesList {
+      grid-template-columns: 1fr;
+    }
+  }

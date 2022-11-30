@@ -1,0 +1,66 @@
+.footer {
+    width: 100%;
+    height: 300px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 5px;
+  }
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 70px;
+    cursor: pointer;
+  }
+  
+  .footer p {
+    color: white;
+  }
+  .tableau{
+    border-collapse: collapse;
+    min-width: 1000px;
+    width: auto;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.15);
+    cursor: pointer;
+    margin: 100px auto;
+    border: 2px dotted rgb(47, 49, 49);
+      }
+      .divtab{
+          background: url('../assets/slider3.jpeg');
+          background-repeat: no-repeat;
+          background-position: center; 
+          background-size: cover;
+          
+          height: 172vh;
+
+      }
+  .tableau thead tr {
+    background-color: #6f0a14;
+    color: aliceblue;
+   
+  }
+  .tableau thead tr th {
+    padding: 15px 20px ;
+  }
+  .tableau tbody tr th {
+    padding: 15px 20px ;
+    border: 1.5px dotted rgb(115,155,167);
+  }
+  .colonetemps{
+
+    color: aliceblue;
+  }
+  .colonecours{
+background-color: white;
+padding: 5px 7px ;
+
+  }
+  .colonecours1{
+    color:#6f0a14;
+  }
+.typecours{
+  background-color: aliceblue;
+  color: yellow;
+}
